@@ -2,6 +2,8 @@
     --blue-color: #9370DB;
     --red-color: #FF4040;
     --green-color: #90EE90;
+    --table-color: #FFDEAD;
+    --doc-color: #2E8B57;
     background-color: #FFFAFA;
     font-family: Andale Mono, monospace;
 }
@@ -65,4 +67,34 @@ h5 {
     color: #9370DB;
     font-weight: 300;
     opacity: 0.4;
+}
+/* Pages with tasks */
+.task-item {
+    font-size: 11px;
+    color: var(--blue-color);
+    font-weight: 900;
+    border: 1px solid var(--table-color);
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+.task-item__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px dashed var(--table-color);
+    padding: 10px 5px;
+}
+.task-item__doc {
+    color: var(--doc-color);
+    font-weight: 500;
+}
+.task-item__term {
+    color: var(--red-color);
+}
+.task-item__problem {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 300;
 }
