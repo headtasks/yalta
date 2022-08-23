@@ -2,7 +2,7 @@
     --blue-color: #9370DB;
     --red-color: #FF4040;
     --green-color: #90EE90;
-    /* --yellow-color: #FFDEAD; */
+    --yellow-color: #FFDEAD;
     background-color: #FFFAFA;
     font-family: Andale Mono, monospace;
 }
@@ -131,4 +131,18 @@ h5 {
     padding-top: 10px;
     text-align: center;
     font-weight: 300;
+}
+footer a {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+}
+footer a:hover {
+    transform: translateY(-10px);
+}
+footer img {
+    height: 40px;
+    width: 120px;
+    border: none;
 }
