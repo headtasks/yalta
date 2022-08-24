@@ -2,7 +2,7 @@
     --blue-color: #9370DB;
     --red-color: #FF4040;
     --green-color: #90EE90;
-    --yellow-color: #FFDEAD;
+    --yellow-color: #FFA500;
     background-color: #FFFAFA;
     font-family: Andale Mono, monospace;
 }
@@ -29,12 +29,20 @@ hr {
     border-bottom: none;
     opacity: 0.4;
 }
-h3 {
+h3, p {
     text-align: center;
     color: var(--red-color);
     margin-top: 15px;
-    margin-bottom: 10px;
     font-size: 16px;
+    margin-bottom: 0;
+}
+p {
+    color: var(--yellow-color);
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
 }
 .wrapper__element {
     margin: 0;
@@ -58,6 +66,9 @@ img {
 .done img {
     border: 3px solid var(--green-color);
 }
+.work img {
+    border: 3px solid var(--yellow-color);
+}
 h6 {
     color: var(--blue-color);
     font-size: 16px;
@@ -74,6 +85,9 @@ h4 {
 }
 .done h4 {
     color: var(--green-color);
+}
+.work h4 {
+    color: var(--yellow-color);
 }
 h5 {
     text-align: center;
@@ -145,4 +159,7 @@ footer img {
     height: 40px;
     width: 120px;
     border: none;
+}
+#working {
+    border-color: var(--yellow-color);
 }
