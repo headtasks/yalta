@@ -2,7 +2,7 @@
     --blue-color: #9370DB;
     --red-color: #FF4040;
     --green-color: #90EE90;
-    /* --yellow-color: #FFDEAD; */
+    --yellow-color: #FFDEAD;
     background-color: #FFFAFA;
     font-family: Andale Mono, monospace;
 }
@@ -47,7 +47,7 @@ a {
     display: flex; 
 }
 a:hover {
-    transform: rotate(-10deg);
+    transform: translateX(10px);
     transition: 1s all;
 }
 img {
@@ -82,11 +82,32 @@ h5 {
     opacity: 0.4;
 }
 /* Pages with tasks */
+.header__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__wrapper a:hover {
+    transform: translateX(-10px);
+}
+.header__wrapper img {
+    width: 100px;
+    border: 2px solid var(--red-color);
+}
+.header__wrapper img:nth-child(1) {
+    width: 120px;
+    border: 2px solid var(--blue-color);
+}
+.header__wrapper img:nth-child(2):hover {
+    transform: translateY(10px);
+    transition: 1s all;
+}
 .task-item {
     font-size: 11px;
     color: var(--blue-color);
     font-weight: 900;
     border: 1px solid var(--red-color);
+    border-radius: 25px;
     padding: 10px 20px;
     margin: 20px 0;
     background-color: #fff;
@@ -98,6 +119,7 @@ h5 {
     margin-top: 10px;
     border: 1px dotted var(--red-color);
     padding: 10px 5px;
+    border-radius: 25px;
 }
 .task-item__doc {
     color: var(--blue-color);
@@ -109,4 +131,18 @@ h5 {
     padding-top: 10px;
     text-align: center;
     font-weight: 300;
+}
+footer a {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+}
+footer a:hover {
+    transform: translateY(-10px);
+}
+footer img {
+    height: 40px;
+    width: 120px;
+    border: none;
 }
