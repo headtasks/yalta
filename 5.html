@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>5</title>
     <link rel="icon" href="./f.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./animate.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <main>
-        <div class="container">
+    <div class="container">
 
-            <header>
-                <div class="header__wrapper">
-                    <a href="./index.html">
-                        <img src="./0.jpg" alt="0">
-                    </a>
-                    <img src="./5.jpg" alt="5" id="working">
-                </div>
-            </header>
-            
-            <section class="task-item work" id="working">
+        <header>
+            <div class="header__wrapper wow animate__fadeInDownBig">
+                <a href="./index.html">
+                    <img src="./0.jpg" alt="0">
+                </a>
+                <img src="./5.jpg" alt="5" id="working">
+            </div>
+        </header>
+        
+        <main>
+
+            <section class="task-item wow animate__fadeInUpBig work" data-wow-duration="2s" id="working">
                 <div class="task-item__wrapper" id="working">
                     <div class="task-item__doc">
                         16133/02.1-08/30
@@ -35,13 +37,17 @@
                 </div>
             </section>
 
-            <footer>
-                <a href="mailto:ved@yalta.rk.gov.ru">
-                    <img src="./mail.svg" alt="mail">
-                </a>
-            </footer>
+        </main>
 
-        </div>
-    </main>
+        <footer class="wow animate__pulse animate__infinite">
+            <a href="mailto:ved@yalta.rk.gov.ru">
+                <img src="./mail.svg" alt="mail">
+            </a>
+        </footer>
+
+    </div>
+
+    <script src="./wow.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
