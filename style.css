@@ -90,6 +90,7 @@ h4 {
     color: var(--yellow-color);
 }
 h5 {
+    margin: 10px 0;
     text-align: center;
     color: #9370DB;
     font-weight: 300;
@@ -151,9 +152,6 @@ footer a {
     width: 60px;
     margin: 0 auto;
     padding: 20px 20px 0 20px;
-}
-footer a:hover {
-    transform: translateY(-10px);
 }
 footer img {
     height: 40px;

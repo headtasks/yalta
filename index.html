@@ -6,51 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yalta</title>
     <link rel="icon" href="./f.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./animate.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <main>
-        <div class="container">
-            <h1>Анализ выполнения поручений</h1>
-            <h2>главы администрации города Ялта</h2>
-            <hr>
-            <h3>Поручений без ответа</h3>
+    <div class="container">
+
+        <header>
+            <h1 class="wow animate__fadeInDownBig">Анализ выполнения поручений</h1>
+            <h2 class="wow animate__fadeInDownBig">главы администрации города Ялта</h2>
+            <hr class="wow animate__fadeInDownBig">
+            <h3 class="wow animate__fadeInDownBig">Поручений без ответа</h3>
             <p></p>
+        </header>
+        
+        <main>
             <div class="wrapper">
-               
-                <div class="wrapper__element">
+            
+                <div class="wrapper__element wow animate__fadeInUpBig">
                     <h6>570</h6>
                     <a href="./4.html">
                         <img src="./4.jpg" alt="4">
                     </a>
-                    <h4>18</h4>
+                    <h4>16</h4>
                 </div>
-                
-                <div class="wrapper__element">
+
+                <div class="wrapper__element wow animate__fadeInUpBig">
                     <h6>482</h6>
                     <a href="./1.html">
                         <img src="./1.jpg" alt="1">
                     </a>
-                    <h4>13</h4>
+                    <h4>14</h4>
                 </div>
-
-                <div class="wrapper__element">
-                    <h6>96</h6>
-                    <a href="./2.html">
-                        <img src="./2.jpg" alt="2">
-                    </a>
-                    <h4>1</h4>
-                </div> 
                 
-                <div class="wrapper__element done">
+                <div class="wrapper__element wow animate__fadeInUpBig">
                     <h6>383</h6>
-                    <a href="#">
+                    <a href="./5.html">
                         <img src="./5.jpg" alt="5">
                     </a>
-                    <h4>0</h4>
+                    <h4>1</h4>
                 </div>
-                
-                <div class="wrapper__element done">
+
+                <div class="wrapper__element wow animate__fadeInUpBig done">
+                    <h6>96</h6>
+                    <a href="#">
+                        <img src="./2.jpg" alt="2">
+                    </a>
+                    <h4>0</h4>
+                </div>                 
+
+                <div class="wrapper__element wow animate__fadeInUpBig done">
                     <h6>191</h6>
                     <a href="#">
                         <img src="./3.jpg" alt="3">
@@ -58,17 +63,25 @@
                     <h4>0</h4>   
                 </div>
 
-                <div class="wrapper__element done">
+                <div class="wrapper__element wow animate__fadeInUpBig done">
                     <h6>9</h6>
                     <a href="#">
                         <img src="./6.jpg" alt="6">
                     </a>
                     <h4>0</h4>   
                 </div>
-               
+            
             </div>
-            <h5>ОКПиЗМ &copy; 29.08.2022</h5>
-        </div>
-    </main>
+        </main>
+
+        <footer>
+            <h5>ОКПиЗМ &copy; 02.09.2022</h5>
+        </footer>
+
+    </div>
+
+    <script src="./wow.min.js"></script>
+    <script src="./main.js"></script>
+
 </body>
 </html>
