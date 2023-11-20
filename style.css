@@ -118,7 +118,7 @@ h5 {
     transition: 1s all;
 }
 .task-item {
-    font-size: 13px;
+    font-size: 11px;
     color: var(--blue-color);
     font-weight: 900;
     border: 1px solid var(--red-color);
