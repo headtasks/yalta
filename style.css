@@ -162,3 +162,12 @@ footer img {
 #working {
     border-color: var(--yellow-color);
 }
+.extra-img {
+    display: block;
+    padding: 10px 0 5px 0;
+    margin: 0 auto;
+    width: 80px;
+    border: 0;
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
+}
