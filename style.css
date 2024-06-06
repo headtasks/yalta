@@ -71,8 +71,8 @@ img {
 }
 h6 {
     color: var(--blue-color);
-    font-size: 16px;
-    opacity: 0.6;
+    font-size: 14px;
+    opacity: 0.4;
     padding-right: 25px;
     width: 20px;
 }
