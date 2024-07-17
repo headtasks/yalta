@@ -55,7 +55,7 @@ p {
 a {
     display: flex;
 }
-div > a {
+#vk {
     flex-direction: column;
     padding: 10px 0;
     color: var(--red-color);
