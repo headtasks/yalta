@@ -54,6 +54,8 @@ p {
 }
 a {
     display: flex; 
+}
+div a {
     flex-direction: column;
 }
 a:hover {
