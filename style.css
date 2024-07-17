@@ -54,6 +54,7 @@ p {
 }
 a {
     display: flex; 
+    flex-direction: column;
 }
 a:hover {
     transform: translateX(10px);
