@@ -53,10 +53,12 @@ p {
     max-height: 175px;
 }
 a {
-    display: flex; 
+    display: flex;
 }
-div a {
+div > a {
     flex-direction: column;
+    padding: 10px 0;
+    color: var(--red-color);
 }
 a:hover {
     transform: translateX(10px);
