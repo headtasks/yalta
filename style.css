@@ -154,15 +154,15 @@ h5 {
 .task-item__problem-before-answer,
 .task-item__problem-asnswer {
   padding-top: 10px;
-  text-align: center;
+  text-align: justify;
   font-weight: 300;
 }
 .task-item__problem-before-answer {
-  text-align: left;
+  padding-right: 3em;
 }
 .task-item__problem-asnswer {
+  padding-left: 3em;
   border-top: 1px dotted var(--yellow-color);
-  text-align: right;
   color: grey;
 }
 footer a {
