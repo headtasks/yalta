@@ -56,10 +56,10 @@ p {
 }
 a {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 #vk {
-  align-items: flex-start;
+  align-items: center;
   padding: 10px 0;
   color: var(--red-color);
 }
