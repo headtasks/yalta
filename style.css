@@ -59,9 +59,12 @@ a {
   align-items: flex-start;
 }
 #vk {
-  align-items: center;
+  flex-direction: column;
   padding: 10px 0;
   color: var(--red-color);
+}
+#vk-center {
+  align-items: center;
 }
 a:hover {
   transform: translateX(10px);
